@@ -1,0 +1,69 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggle Switch</title>
+    <link rel="stylesheet" href="/css/toggleSwitch.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Toggle Switch</h1>
+
+      <!-- List of switches -->
+      <div class="switches">
+        <!-- First switch -->
+        <section>
+          <h3>Round toggle switch to turn value on or off</h3>
+          <div class="switch-container">
+            <p>Autosave</p>
+            <label class="switch-label">
+              <input type="checkbox" id="switch-1"/>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </section>
+
+        <!-- Second switch -->
+        <section>
+          <h3>Round toggle switch to select one of the given values</h3>
+          <div class="switch-container">
+            <p>Male</p>
+            <label class="switch-label" >
+              <input type="checkbox" id="switch-2"/>
+              <span class="slider round choice"></span>
+            </label>
+            <p>Female</p>
+          </div>
+        </section>
+
+        <!-- third switch -->
+        <section>
+          <h3>Square toggle switch to turn value on or off</h3>
+          <div class="switch-container">
+            <p>Autosave</p>
+            <label class="switch-label">
+              <input type="checkbox"  id="switch-3"/>
+              <span class="slider"></span>
+            </label>
+          </div>
+        </section>
+
+        <!-- fourth switch -->
+        <section>
+          <h3>Square toggle switch to select one of the given values</h3>
+          <div class="switch-container">
+            <p>Male</p>
+            <label class="switch-label">
+              <input type="checkbox"  id="switch-4"/>
+              <span class="slider choice"></span>
+            </label>
+            <p>Female</p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="/js/toggleSwitch.js"></script>
+  </body>
+</html>
